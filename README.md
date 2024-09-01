@@ -1,8 +1,7 @@
 # Elixir Gist
 This project is GitHub Gist clone. It focuses only on the public gists. \
-Based on this [Elixir Mentor's youtube tutorial playlist](https://www.youtube.com/watch?v=OMKugMwRrko&list=PL2Rv8vpZJz4x1Svv79WdT0Da42kWt_hQ0&index=2)
+Based on this [Elixir Mentor's youtube tutorial playlist](https://www.youtube.com/watch?v=OMKugMwRrko&list=PL2Rv8vpZJz4x1Svv79WdT0Da42kWt_hQ0&index=2).
 
----
 ## Setting up the application
 To start your Phoenix server:
 
