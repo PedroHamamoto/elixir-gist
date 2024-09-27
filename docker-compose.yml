@@ -8,9 +8,9 @@ services:
       - "5432:5432"
     restart: always
     environment:
+      - POSTGRES_DB=elixir_gist_dev
       - POSTGRES_USER=elixir_gist
       - POSTGRES_PASSWORD=super_strong_password
-      - POSTGRES_DB=elixir_gist_dev
 volumes:
   postgres-volume:
 networks:

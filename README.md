@@ -2,7 +2,23 @@
 This project is GitHub Gist clone. It focuses only on the public gists. \
 Based on this [Elixir Mentor's youtube tutorial playlist](https://www.youtube.com/watch?v=OMKugMwRrko&list=PL2Rv8vpZJz4x1Svv79WdT0Da42kWt_hQ0&index=2).
 
+## Requirements
+Install elixir. I recommend installing using [asdf](https://asdf-vm.com/)
+```bash
+asdf plugin add erlang
+asdf plugin add elixir
+asdf install
+```
+
+## Database schema 
+![Database Schema](docs/database-schema.png)
+
 ## Setting up the application
+### 1. Start the database
+```bash
+docker compose up -d
+```
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
